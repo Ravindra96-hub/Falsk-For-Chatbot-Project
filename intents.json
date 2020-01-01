@@ -1,0 +1,539 @@
+{
+   "intents": [
+      {
+         "tag": "greeting",
+         "patterns": [
+            "Hi",
+            "Hey",
+            "Is anyone there?",
+            "Hello",
+            "Good day",
+            "Whats up"
+         ],
+         "responses": [
+            "Hello!",
+            "Good to see you !",
+            "Hi there",
+            "how can I help?"
+         ]
+      },
+      {
+         "tag": "goodbye",
+         "patterns": [
+            "cya",
+            "See you later",
+            "Goodbye",
+            "I am Leaving",
+            "Have a Good day",
+            "bye",
+            "done"
+         ],
+         "responses": [
+            "Sad to see you go :(",
+            "Talk to you later",
+            "Goodbye!",
+            "bye",
+            "hope to see u soon"
+         ]
+      },
+      {
+         "tag": "Services",
+         "patterns": [
+            "what are your services",
+            "name your services",
+            "list your services",
+            "tell me about your services",
+            "tell me your services",
+            "what type of services do you offer",
+            " what kind of services do you give",
+            "what kind of services do you offer",
+            "Services",
+            "what are the services that you offer",
+            "what are the services that your company offers"
+         ],
+         "responses": [
+            "we offer consulting, Data Driven, Application services, Internet of things and Domains Services. Apart from that we provide service for our products. Please contact us for more details. Please contact us for more details"
+         ]
+      },
+      {
+         "tag": "consulting",
+         "patterns": [
+            "what is consulting service",
+            "what type of consulting service",
+            "what type of consulting service do you provide",
+            "Consulting service",
+            "which consulting do you provide",
+            "which consulting do you give",
+            "types of consulting"
+         ],
+         "responses": [
+            "Every problem might not have a simple and straight forward solution We will help finding that path for the solution. We provide TECHNOLOGY CONSULTING, SOLUTION CONSULTING and BUSINESS CONSULTING. Contact us for more details."
+         ]
+      },
+      {
+         "tag": "TECHNOLOGY_CONSULTING",
+         "patterns": [
+            "TECHNOLOGY CONSULTING",
+            "what type of technology consulting",
+            "what type of technology service",
+            "what is technology consulting",
+            "which technology consulting do you provide",
+            "kind of technology consulting",
+            "what kind of technology services do you offer"
+         ],
+         "responses": [
+            "IoT, Predictive Analytics, AI, Cloud, - Jargons everywhere, do you need it all, should we change all systems?\u201d \u2013 We help you to answer these question and take you through the Digital transformation. Contact us for more details."
+         ]
+      },
+      {
+         "tag": "SOLUTION_CONSULTING",
+         "patterns": [
+            "SOLUTION CONSULTING",
+            "what type of solution consulting",
+            "what is solution consulting",
+            "which solution consulting do you provide",
+            "kind of solution consulting",
+            "what kind of solution services do you offer"
+         ],
+         "responses": [
+            "Many process, some manual, some automated, many systems (paper, xlxs, applications), many departments, collaborations needed, delayed outcomes - These are some of the commonly heard issues, we can help align your systems, processes, applications, people by bringing them to common solution. Contact us for more details."
+         ]
+      },
+      {
+         "tag": "BUSINESS_CONSULTING",
+         "patterns": [
+            "BUSINESS CONSULTING",
+            "what type of Business consulting",
+            "what is Business consulting",
+            "which Business consulting do you provide",
+            "kind of Business consulting",
+            "what kind of Business services do you offer"
+         ],
+         "responses": [
+            "IT and Business go hand in hand, IT is not just automation and cost arbitrage mechanism, but an Enable\u201d \u2013 How? We can help in bringing the value of IT to enhance your business. Contact us for more details."
+         ]
+      },
+      {
+         "tag": "Products",
+         "patterns": [
+            "Products",
+            "what are your products",
+            "name your products",
+            "list your products",
+            "tell me about your products",
+            "tell me your products",
+            "what type of products do you offer what kind of products do you give",
+            "what kind of products do you offer",
+            "what are the products that you offer",
+            "what are the products that your company offers"
+         ],
+         "responses": [
+            "our products are Jala-Sinchana, Sum-Vahaka and Pra-varthaka. Please refer http://www.ortusolis.com/products.html for details."
+         ]
+      },
+      {
+         "tag": "JALA-SINCHANA",
+         "patterns": [
+            "JALA-SINCHANA",
+            "what is jala-sinchana",
+            "how will jala-sinchana work",
+            "what is the use of jala-sinchana",
+            "how does jala-sinchana work",
+            "how does jala-sinchana conserve the water",
+            "how will jala-sinchana help in conserving water",
+            "where can I use jala-sinchana",
+            "water management system",
+            "what is water management system",
+            "how will water management system work",
+            "what is the use of water management system",
+            "how does water management system work",
+            "how does water management system conserve the water",
+            "how will water management system help in conserving water",
+            "where can I use water management system",
+            "JalaSinchana",
+            "what is JalaSinchana",
+            "how will JalaSinchana work",
+            "what is the use of JalaSinchana",
+            "how does JalaSinchana work",
+            "how does JalaSinchana conserve the water",
+            "how will JalaSinchana help in conserving water",
+            "where can I use JalaSinchana"
+         ],
+         "responses": [
+            "Jala-Sinchana is an automated watering system. which reduces the burden on human resource. It can be installed at home, Parks and Farms. Contact us for more details."
+         ]
+      },
+      {
+         "tag": "PRA-VARTHAKA",
+         "patterns": [
+            "Pra-Varthaka",
+            "what is Pra-Varthaka",
+            "how will Pra-Varthaka work",
+            "what is the use of Pra-Varthaka",
+            "how does Pra-Varthaka work",
+            "how does Pra-Varthaka unfold data",
+            "how will Pra-Varthaka help in unfold data",
+            "where can I use Pra-Varthaka",
+            "Pra Varthaka",
+            "what is Pra Varthaka",
+            "how will Pra Varthaka work",
+            "what is the use of Pra Varthaka",
+            "how does Pra Varthaka unfold data",
+            "how will Pra Varthaka help in unfold data",
+            "where can I use Pra Varthaka",
+            "PraVarthaka",
+            "what is PraVarthaka",
+            "how will PraVarthaka work",
+            "what is the use of PraVarthaka",
+            "how does PraVarthaka unfold data ",
+            "how will PraVarthaka help in unfold data",
+            "where can I use PraVarthaka"
+         ],
+         "responses": [
+            "pra varthaka Unveil some hidden secrets in data. Unfold the story they want to tell you. The perspective of reality might change. We help you to unfold that story of Data. Contact us for more details."
+         ]
+      },
+      {
+         "tag": "SUM-VAHAKA",
+         "patterns": [
+            "SUM-VAHAKA",
+            "sum Vahaka",
+            "sumvahaka",
+            "what is Sum-Vahaka",
+            "what is SumVahaka",
+            "what is Sum Vahaka",
+            "how will sum-vahaka work",
+            "how will sum vahaka work",
+            "how will sumvahaka work",
+            "how does sum-vahaka work",
+            "how does sum vahaka work",
+            "how does sumvahaka work",
+            "what is the use of sumvahaka",
+            "what is the use of sum vahaka",
+            "what is the use of sum-vahaka",
+            "where can I use sum-vahaka",
+            "where can I use sumvahaka",
+            "where can I use sum vahaka",
+            "where can I install sum-vahaka",
+            "where can I install sumvahaka",
+            "where can I install sum vahaka",
+            "can I install sumvahaka in taxi",
+            "can I install sum vahaka in taxi",
+            "can I install sum-vahaka in taxi"
+         ],
+         "responses": [
+            "Sum-Vahaka is vehicle tracking system, With OBD integration we can indicate emission and provide necessary alerts. It can be installed in any vehicle that need to be tracked. Please contact us for details"
+         ]
+      },
+      {
+         "tag": "career",
+         "patterns": [
+            "how can I apply for job",
+            "how can I apply as an employee",
+            "where can I apply for employee post",
+            "how can I apply for intern post",
+            "where can I apply as intern",
+            "where can I apply as employee",
+            "how much do you pay for an intern",
+            "how much do you pay for an employee",
+            "what is the PayScale of the employee",
+            "what is the pay scale of the intern",
+            "what is the salary of the employee",
+            "what is the salary of the intern",
+            "can I apply as intern",
+            "can I apply as employee",
+            "do you offer internship",
+            "can I apply for internship",
+            "Do you have vacancy in your office",
+            "Do you have vacancy in your company",
+            "do you have job vacancy in your office",
+            "do you have job vacancy in your company",
+            "how long should I work as intern before being hired as employee",
+            "how do you hire interns",
+            "how do you hire your employee",
+            "what is the eligibility criteria to work as an employee",
+            "what is the criteria to be an employee in your office",
+            "what is the criteria to be an intern in your company",
+            "what are the post you have vacancy",
+            "in which post do you have vacancy",
+            "what post do you have vacancy"
+         ],
+         "responses": [
+            "Please refer to career section. If you are interested you can upload your resume our HR team will get back to you http://www.ortusolis.com/careers/index.html"
+         ]
+      },
+      {
+         "tag": "contact",
+         "patterns": [
+            "how can I contact you",
+            "contact details",
+            "contact you",
+            "contacting",
+            "where can I get your contact details",
+            "where is your contact details",
+            "where is your company contact details"
+         ],
+         "responses": [
+            "contactus@ortusolis.com, http://www.ortusolis.com/contact.html"
+         ]
+      },
+      {
+         "tag": "Address",
+         "patterns": [
+            "what is the address of your company",
+            "what is the address of your office",
+            "where Is your office located",
+            "location",
+            "located in",
+            "where are you located",
+            "where is your company located",
+            "in which area are you located",
+            "in which city are you located",
+            "can I get your location",
+            "where are you located exactly",
+            "can you share your location address"
+         ],
+         "responses": [
+            "69, 12th Main Rd, 4th T Block East, Jayanagar 3rd Block East, Jayanagar, Bengaluru, Karnataka 560011 . Please click the link to find us on google map https://www.google.com/maps/@12.9325826,77.584317,17z/data=!3m1!4b1!4m2!7m1!2e1"
+         ]
+      },
+      {
+         "tag": "Certificate",
+         "patterns": [
+            "what certificates do you have",
+            "do you have any certificates",
+            "what are the certifications you have",
+            "Do you have CMMI certificate",
+            "can you list the certifications you have"
+         ],
+         "responses": [
+            "We follow SEI CMM processes but do not have the certification"
+         ]
+      },
+      {
+         "tag": "Process",
+         "patterns": [
+            "what process do you follow to",
+            "deliver the product",
+            "what process do you follow to build the product",
+            "Do you follow any specific process in your company",
+            "what are the specific processes you follow in your company",
+            "Do you follow any quality standards for delivery",
+            "what standard do you follow"
+         ],
+         "responses": [
+            "We follow SEI CMM processes"
+         ]
+      },
+      {
+         "tag": "Ortusolis",
+         "patterns": [
+            "what is Ortusolis",
+            "Ortusolis",
+            "Ortusolis meaning",
+            "who are Ortusolis"
+         ],
+         "responses": [
+            "We are a start-up focused on services and products in multiple domains located in Bangalore. Ortusolis means Rising Sun. We aspire to be a rising star in the IT industry. Few of our initial customers were from the land of Rising Sun, hence the name"
+         ]
+      },
+      {
+         "tag": "development",
+         "patterns": [
+            "do you develop apps",
+            "what kind of apps do you develop",
+            "do you develop application",
+            "what kind of application do you develop",
+            "do you build apps",
+            "do you develop websites",
+            "what kind of websites do you develop",
+            "do you develop website",
+            "what kind of website do you develop",
+            "do you build websites"
+         ],
+         "responses": [
+            "we do develop website and Mobile Apps in Android, iOS and hybrid (phone-gap, flutter). We support website and app development for any valid business need. Contact us for details"
+         ]
+      },
+      {
+         "tag": "tools",
+         "patterns": [
+            "what are the tools you use for development",
+            "tools used for development",
+            "which tool do you use for development",
+            "can I customize the tools",
+            "can you name few tools you use",
+            "list the tools used in your company"
+         ],
+         "responses": [
+            "For internal projects we use Zoho Projects and ]Open Project[ for managing projects. Based on the customer's need we also use other tools like ASANA, GitProject Management, Atlassian Tools etc.,"
+         ]
+      },
+      {
+         "tag": "operational_hours",
+         "patterns": [
+            "what is your operational hours",
+            "operational hours",
+            "what is the hour of operation",
+            "when are you open",
+            "at what time will your company start",
+            "at what time can I visit your office",
+            "at what time will you open the office"
+         ],
+         "responses": [
+            "We are open 9 am to 6 pm Monday-Friday!"
+         ]
+      },
+      {
+         "tag": "Type",
+         "patterns": [
+            "what type of company are you",
+            "are you product based company",
+            "are you service based company",
+            "are you service based company or product based company",
+            "Whether Ortusolis is service based or product based company",
+            "product based or service based"
+         ],
+         "responses": [
+            "we are both product and service based so, please refer to our Products and Services Page"
+         ]
+      },
+      {
+         "tag": "promoters",
+         "patterns": [
+            "Who are the promoters for the company",
+            "do you have any promoters",
+            "who are promoting your company",
+            "name your promoters",
+            "promoters of the company",
+            "promoters"
+         ],
+         "responses": [
+            "We are a bootstrapped start-up currently no promoters"
+         ]
+      },
+      {
+         "tag": "Grassroots",
+         "patterns": [
+            "What do you mean by Bringing IT to Grassroots?",
+            "how do you bring it to grassroots",
+            "what does bring it to grassroots mean",
+            "Grassroots",
+            "What do you mean by Bringing IT to grass roots?",
+            "how do you bring it to grass roots",
+            "what does bring it to grass roots mean",
+            "grass roots"
+         ],
+         "responses": [
+            "Bringing IT to grassroots is our vision. We would like to bring the high end IT technologies to areas of society reaching the common person, be it a farmer, a small time vendors, etc."
+         ]
+      },
+      {
+         "tag": "AIM",
+         "patterns": [
+            "what is the aim of the company",
+            "what is the vision of the company",
+            "what is your company aiming at",
+            "where is your company aiming at",
+            "vision of the company",
+            "aim",
+            "vision",
+            "what is your aim",
+            "what is your vision"
+         ],
+         "responses": [
+            "Bringing IT to grassroots is our vision. We would like to bring the high end IT technologies to areas of society reaching the common person, be it a farmer, a small time vendors, etc.,"
+         ]
+      },
+      {
+         "tag": "Start",
+         "patterns": [
+            "when did your company begin",
+            "when did your company start",
+            "when did your company emerge",
+            "when did your company came into existence",
+            "how old is your company"
+         ],
+         "responses": [
+            "It was started in July 2017. Please refer to our About Us link for more details http://www.ortusolis.com/about.html"
+         ]
+      },
+      {
+         "tag": "Fields",
+         "patterns": [
+            "what are the areas of your focus",
+            "what projects are you working on",
+            "what are the areas of the projects",
+            "what are the areas of concern",
+            "what are fields you work on",
+            "what are the various project fields"
+         ],
+         "responses": [
+            "We are currently focusing on Agriculture, Retail, Vehicle management to start with"
+         ]
+      },
+      {
+         "tag": "testing",
+         "patterns": [
+            "Do you provide Testing for applications",
+            "can you test my product",
+            "what type of testing do you provide for products/applications?",
+            "do you provide any testing",
+            "do you test products",
+            "what type of testing do you do",
+            "do you test software",
+            "do you test hardware"
+         ],
+         "responses": [
+            "Yes we do provide manual and automation testing. please contact us"
+         ]
+      },
+      {
+         "tag": "karnataka",
+         "patterns": [
+            "from where your company",
+            "from where your company"
+         ],
+         "responses": [
+            "bangaluru",
+            "karunadu"
+         ]
+      },
+      {
+         "tag": "ravindra",
+         "patterns": [
+            "who is ravindra"
+         ],
+         "responses": [
+            "he is an employee"
+         ]
+      },
+      {
+         "tag": "abdcgh",
+         "patterns": [
+            "sdfghjk"
+         ],
+         "responses": [
+            "oiugfd"
+         ]
+      },
+      {
+         "tag": "data analysis",
+         "patterns": [
+            "data science is"
+         ],
+         "responses": [
+            "processing data"
+         ]
+      },
+      {
+         "tag": "jala",
+         "patterns": [
+            "jala_ninchan"
+         ],
+         "responses": [
+            "i know this"
+         ]
+      }
+   ]
+}
